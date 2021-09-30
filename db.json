@@ -1,0 +1,52 @@
+{
+  "artwork": [
+    {
+      "id": 2,
+      "name": "Regresare a Mi Tierra",
+      "image": "https://cdn.shopify.com/s/files/1/0535/0054/3166/products/Regresareamitierra_1296x.png?v=1621699550",
+      "likes": 5
+    },
+    {
+      "id": 3,
+      "name": "Llorando a medio dia",
+      "image": "https://cdn.shopify.com/s/files/1/0535/0054/3166/products/Flowercrying_1296x.png?v=1621632160",
+      "likes": 7
+    },
+    {
+      "id": 4,
+      "name": "Learning to Propegate",
+      "image": "https://cdn.shopify.com/s/files/1/0535/0054/3166/products/8672d8_d54d653746a1492ea7467d59d6cd45fd_7Emv2_1296x.jpg?v=1612991337",
+      "likes": 0
+    },
+    {
+      "id": 5,
+      "name": "With Death, comes Rebirth",
+      "image": "https://cdn.shopify.com/s/files/1/0535/0054/3166/products/8672d8_aae70df1ddd942f4b1d17bb9ad3e7d36_7Emv2_1296x.jpg?v=1612991334",
+      "likes": 5
+    },
+    {
+      "id": 6,
+      "name": "Open to Change",
+      "image": "https://cdn.shopify.com/s/files/1/0535/0054/3166/products/8672d8_3a54db8df338494db81ffd9e8f5b9b54_7Emv2_1296x.jpg?v=1612991315",
+      "likes": 0
+    },
+    {
+      "id": 8,
+      "name": "Sola En Casa",
+      "image": "https://cdn.shopify.com/s/files/1/0535/0054/3166/products/Sola_En_casa__March_2021_1296x.png?v=1615335911",
+      "likes": 0
+    },
+    {
+      "name": "Prometo Cuidar de mis flores Marchitadas",
+      "image": "https://cdn.shopify.com/s/files/1/0535/0054/3166/products/IMG_0292_2048x.jpg?v=1626224535",
+      "likes": 0,
+      "id": 9
+    },
+    {
+      "name": "",
+      "image": "",
+      "likes": 0,
+      "id": 10
+    }
+  ]
+}
