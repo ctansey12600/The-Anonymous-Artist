@@ -4,13 +4,13 @@
       "id": 2,
       "name": "Regresare a Mi Tierra",
       "image": "https://cdn.shopify.com/s/files/1/0535/0054/3166/products/Regresareamitierra_1296x.png?v=1621699550",
-      "likes": 5
+      "likes": 21
     },
     {
       "id": 3,
       "name": "Llorando a medio dia",
       "image": "https://cdn.shopify.com/s/files/1/0535/0054/3166/products/Flowercrying_1296x.png?v=1621632160",
-      "likes": 7
+      "likes": 15
     },
     {
       "id": 4,
@@ -41,12 +41,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0535/0054/3166/products/IMG_0292_2048x.jpg?v=1626224535",
       "likes": 0,
       "id": 9
-    },
-    {
-      "name": "",
-      "image": "",
-      "likes": 0,
-      "id": 10
     }
   ]
 }

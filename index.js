@@ -1,21 +1,19 @@
 //Open/close Menu
-const openBtn = document.querySelector("#open-btn")
-openBtn.addEventListener("click", () => {
+document.querySelector("#open-btn").addEventListener("click", () => {
     const navBar = document.querySelector(".links")
     navBar.style.display = "block"
-    openBtn.style.display = "none"
+    document.querySelector("#open-btn").style.display = "none"
 })
 
-const closeBtn = document.querySelector("#close")
-closeBtn.addEventListener("click", () => {
+document.querySelector("#close").addEventListener("click", () => {
     const navBar = document.querySelector(".links")
     navBar.style.display = "none"
-    openBtn.style.display = "block"
+    document.querySelector("#open-btn").style.display = "block"
 })
 
 //Fetching Artwork
 function fetchArtwork(){
-    fetch("http://localhost:3000/artwork?_embed=comments")
+    fetch("http://localhost:3000/artwork")
     .then(res => res.json())
     .then(collection => collection.forEach(artwork => artworkCard(artwork)))
 }
@@ -63,8 +61,7 @@ function artworkCard(artwork){
 }
 
 //Adding New Artwork
-const newItem = document.getElementById("new-artwork")
-newItem.addEventListener('submit', addNew)
+document.getElementById("new-artwork").addEventListener('submit', addNew)
 function addNew(e) {
     const newName = e.target[0].value
     const newUrl = e.target[1].value
@@ -80,7 +77,7 @@ function addNew(e) {
             likes: 0,
         })
     })
-    newItem.reset()
+    document.getElementById("new-artwork").reset()
 }
 
 //Deletes when bought
@@ -103,7 +100,7 @@ function addLikes(artwork,num){
            "accept": "application/json"
        },
         body: JSON.stringify({
-                likes : num
+                likes : num + 1
         })
     })
 }
